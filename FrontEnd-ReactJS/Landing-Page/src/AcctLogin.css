@@ -1,0 +1,182 @@
+.login-content {
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  /*background: #f2f2f2;*/
+  top: 0;
+  margin: 0;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+}
+.login-header {
+  margin-bottom: 0;
+  height: 55px;
+  width: 100%;
+  background: lightgrey;
+}
+.logo-header {
+  width: 100px;
+  height: 50px;
+}
+.login-message {
+  display:flex;
+  width: 100%;
+  height: 145px;
+  -webkit-box-pack:center !important;
+  -ms-flex-pack:center !important;
+  -webkit-box-pack:center !important;
+  -webkit-justify-content:center !important;
+  -ms-flex-pack:center !important;
+  justify-content:center !important;
+}
+.login-message p {
+  font-size: 38px;
+  padding: 0;
+  margin-top: 50px;
+  color: grey;
+}
+.login-background {
+  display:flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack:center !important;
+  -ms-flex-pack:center !important;
+  -webkit-box-pack:center !important;
+  -webkit-justify-content:center !important;
+  -ms-flex-pack:center !important;
+  justify-content:center !important;
+}
+.login-dialog {
+  width: 547px;
+  height: 607px;
+  background: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgrey;
+}
+.fb-login{
+  height:160px;
+  min-width:250px;
+  vertical-align: middle;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.fb-login-toppad{
+  height:70px;
+}
+.facebook-message{
+  height:53px;
+}
+.fb-login .login-button {
+  background:url("./static/img/icons/facebook-button.png");
+  height:53px;
+  min-width:250px;
+  font-size:11px;
+  color: white;
+}
+.facebook-message{
+  font-size: 10px;
+  padding: 0;
+  margin-top: 10px;
+  color: grey;
+}
+.or{
+  height:30px;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-direction:row;
+  -ms-flex-direction:row;
+  flex-direction:row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.panel__divider_one, .panel__divider_two{
+  height:2px;
+  width:100px;
+  background:lightgrey;
+}
+.or p{
+  font-size: 12px;
+  padding: 15px;
+}
+.Cbi-login{
+  height:250px;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.Cbi-login form {
+  min-width:250px;
+  font-size: 12px;
+}
+.Cbi-login input{
+  min-width:250px;
+  height:38px;
+}
+.Cbi-login .form-label{
+  padding-top: 15px;
+  width:250px;
+}
+.Cbi-login .form-label p {
+  margin: 0;
+}
+.Cbi-login .login-button-divider{
+  height:52px;
+  width:250px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+}
+.Cbi-login .login-button{
+  background:linear-gradient(45deg,#30a300 0%,#30eb00 100%);
+  height:52px;
+  width:185px;
+  color: white;
+  font-size:15px;
+  margin-left: 33px;
+}
+.iforget-message {
+  height:84px;
+  color: gray;
+  text-align:center;
+  font-size: 12px;
+}
+.pad-passwd-forget{
+  height:20px;
+}
+.start-trial-message {
+  height:84px;
+  color: gray;
+  text-align:center;
+  font-size: 12px;
+}
+.iforget-message a, .start-trial-message a{
+  margin-top: 30px;
+  color: inherit;
+  text-decoration: none;
+}

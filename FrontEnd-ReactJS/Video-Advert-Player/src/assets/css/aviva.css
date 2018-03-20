@@ -1,0 +1,262 @@
+.App,
+#my-body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+}
+
+.carousel-inner .item,
+.carousel-inner .item .slide-img {
+    width: 100%;
+    height: 530px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.carousel-inner .carousel-caption {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner .carousel-caption .caption-message {
+    position: relative;
+    float: left;
+    width: 350px;
+    height: 230px;
+    top: 200px;
+    margin-left: 130px;
+}
+
+.carousel-inner .carousel-caption .caption-play {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    margin-left: 120px;
+}
+
+.carousel-inner .carousel-caption .caption-watch {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 220px;
+    margin-left: 280px;
+}
+
+.carousel-inner .item .caption-play a img {
+    opacity: 0.7;
+}
+
+.item .carousel-caption .caption-watch,
+.item .carousel-caption .caption-play {
+    display: none;
+}
+
+.item:hover .caption-watch,
+.item:hover .caption-play {
+    display: block;
+}
+
+.carousel-caption .caption-watch .watchlist {
+    line-height: 20px;
+}
+
+.carousel-caption .caption-watch a {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-caption .caption-watch a:hover,
+.carousel-caption .caption-watch a:focus {
+    color: green;
+}
+
+.carousel-caption .caption-watch img:hover,
+.carousel-caption .caption-watch img:focus {
+    background: green;
+}
+
+.carousel-inner .carousel-control {
+    display: none;
+}
+
+.carousel-inner:hover .carousel-control {
+    display: block;
+}
+
+.my-fullnav {
+    top: 0;
+    position: absolute;
+    height: 200px !important;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background: none !important;
+    z-index: 999;
+}
+
+.my-simplenav {
+    top: 0;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background: #0b1313;
+}
+
+#playerbody {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0;
+}
+
+.MoviePlayer {
+    height: 460px;
+    width: 780px;
+    margin: 0 auto;
+    background: gray;
+  	text-align: center;    
+}
+.topboxmenu {
+    flex: 3; /* additionally, equal width */
+}
+
+.buttboxmenu {
+    flex: 2; /* additionally, equal width */
+}
+
+#bottnav {
+    margin-left: 80px;
+}
+
+.dropbtn {
+    background-color: green;
+    margin-left: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background: none;
+}
+
+#topnav .toplist,
+#bottnav .toplist {
+    display: inline-block;
+}
+
+#topnav {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+#bottnav {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#searchnav {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.trialList li::before {
+    content: ".";
+    color: grey
+}
+
+.my-menu li a {
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.my-menu li a:hover,
+.my-menu li a:focus {
+    color: green;
+}
+
+.sub-menu li a:hover,
+.sub-menu li a:focus {
+    color: green;
+}
+
+/* nav-dropdown Content (Hidden by Default) */
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #0b1313;
+    opacity: .8;
+    padding: 1em;
+    border: solid;
+    border-color: grey;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu li a {
+    padding: 1px;
+    margin: 0;
+}
+
+/* Show the nav-dropdown menu on hover */
+.nav-dropdown:hover .sub-menu {
+    display: block;
+}
+
+.nav-dropdown li a {
+    color: grey;
+    font-size: 13px;
+}
+
+.nav-dropdown li a:hover {
+    margin: 0;
+}
+
+.my-footer {
+    margin-top: 15px;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    background-color: lightgrey;
+    display: flex;
+}
+
+#topfooter {
+    margin-top: 15px;
+}
+
+#bottfooter {
+    margin-top: 15px;
+    margin-left: 200px
+}
+
+.topboxfooter {
+    flex: 1; /* additionally, equal width */
+    height: 50px;
+}
+
+.bottboxfooter {
+    flex: 1; /* additionally, equal width */
+    height: 50px;
+}
+
+.my-footer li {
+    display: inline;
+}
+.my-footer li a {
+    padding: 8px;
+    color: grey;
+    font-size: 12px;
+    text-decoration: none;
+}

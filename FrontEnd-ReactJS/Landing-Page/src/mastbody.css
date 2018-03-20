@@ -1,0 +1,30 @@
+@media only screen and (min-width: 0px) {
+  .start-masthead--background {
+    background-image: url(./static/img/appimg/family-lifestyle.jpeg);
+  }
+}
+@media only screen and (min-width: 376px) {
+  .start-masthead--background {
+    background-image: url(./static/img/appimg/family-lifestyle.jpeg);
+  }
+}
+@media only screen and (min-width: 769px) {
+  .start-masthead--background {
+    background-image: url(./static/img/appimg/family-lifestyle.jpeg);
+  }
+}
+.grid-picture-box{
+  maxWidth:1600px;
+  width:100%;
+  margin:0 auto;
+}
+.mobilebox-span-info {
+  position:absolute;
+  top:25%;
+  left:0;
+  background: #FFF;
+  display:block;
+  width:100%;
+  height:75%;
+  z-index:-1;
+}
